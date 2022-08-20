@@ -11,7 +11,7 @@ params:
   defaultTheme: auto
   ShowReadingTime: true
   ShowToc: true
-  TocOpen: true
+  #TocOpen: true
   assets:
     disableFingerprinting: true
   hideFooter: true
