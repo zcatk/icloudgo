@@ -9,7 +9,6 @@ tags:
     - cloudflare
     - parental conrols
 params:
-   # ShowPostNavLinks: true
     ShowCodeCopyButtons: true
 
 editPost:
