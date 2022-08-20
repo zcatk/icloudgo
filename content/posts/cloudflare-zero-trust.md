@@ -7,7 +7,6 @@ tags:
     - zero trust
     - cloudflare
     - parental controls
-    - firewall
 params:
     ShowPostNavLinks: true
     ShowCodeCopyButtons: true

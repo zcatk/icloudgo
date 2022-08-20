@@ -2,8 +2,12 @@
 title: "Initial Cloudflare Zero Trust Setup"
 date: 2022-08-20T13:22:21-04:00
 draft: true
-categories: 
+categories:
+    - network security 
 tags:
+    - tutorial
+    - zero trust
+    - cloudflare
 params:
     ShowPostNavLinks: true
     ShowCodeCopyButtons: true
