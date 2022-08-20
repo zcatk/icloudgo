@@ -1,6 +1,11 @@
 ---
 title: "Cloudflare Zero Trust"
 date: 2022-08-19T18:02:37-04:00
+categories: 
+    - network security
+tags:
+    - parental controls
+    - firewall
 params:
     ShowPostNavLinks: true
     ShowCodeCopyButtons: true
