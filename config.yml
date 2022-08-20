@@ -14,7 +14,7 @@ params:
   #TocOpen: true
   assets:
     disableFingerprinting: true
-  hideFooter: true
+  #hideFooter: true
   keywords: [blog, tutorials, guides, IT, cloud]
   categories: 
     - network security

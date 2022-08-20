@@ -67,4 +67,7 @@ Again, I needed a way to secure my home network from phising, malware and, innap
 
 I plan to write a series of tutorials to help others with setting up and configuring Cloudflare Zero Trust. Cloudflare's documentation was not the best and there really isn't a lot of info out there to help.
 
-Thanks for the read and I hope this was helpful in getting you started in making your family or office network safer.   
+Thanks for the read and I hope this was helpful in getting you started with making your family or office network safe and secure.
+
+Please reach out with questions, suggestions, and more on our [GitHub Discussion Page](https://github.com/zcatk/icloudgo/discussions). 
+
