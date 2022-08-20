@@ -16,7 +16,7 @@ params:
     disableFingerprinting: true
   hideFooter: true
   keywords: [blog, tutorials, guides, IT, cloud]
-  catagories: 
+  categories: 
     - network security
 
 menu:
