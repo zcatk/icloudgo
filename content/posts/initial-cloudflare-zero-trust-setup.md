@@ -7,7 +7,7 @@ tags:
     - tutorial
     - zero trust
     - cloudflare
-    - parental conrols
+    - parental controls
 params:
     ShowCodeCopyButtons: true
 
