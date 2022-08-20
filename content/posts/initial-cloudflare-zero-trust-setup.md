@@ -73,8 +73,8 @@ That's it, you can check to see if your rules are working by visiting the follow
 Category | Test Domain 
 ---|---
 Cryptomining | [cryptomining.testcategory.com](https://cryptomining.testcategory.com)
-Malware | [malware.testcategory.com](malware.testcategory.com)
-Phishing | [phishing.testcategory.com](phishing.testcategory.com)
+Malware | [malware.testcategory.com](https://malware.testcategory.com)
+Phishing | [phishing.testcategory.com](https://phishing.testcategory.com)
 
 _A more comprehensive list is available on [Cloudflare Docs](https://developers.cloudflare.com/cloudflare-one/policies/filtering/dns-policies/check-policy/)_
 
