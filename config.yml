@@ -7,7 +7,6 @@ theme: "PaperMod"
 enableRobotsTXT: true
 
 params:
-  comments: true
   env: production
   defaultTheme: auto
   ShowReadingTime: true
