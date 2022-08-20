@@ -9,8 +9,8 @@ params:
     ShowCodeCopyButtons: true
 
 editPost:
-    URL: "https://github.com/zcatk/icloudgo/tree/master/content"
+    URL: "https://github.com/zcatk/icloudgo/discussions"
     Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+    appendFilePath: false # to append file path to Edit link
 ---
 
