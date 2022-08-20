@@ -11,6 +11,7 @@ tags:
 params:
     ShowPostNavLinks: true
     ShowCodeCopyButtons: true
+    comments: true
 
 editPost:
     URL: "https://github.com/zcatk/icloudgo/tree/master/content"

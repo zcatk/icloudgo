@@ -4,6 +4,8 @@ title: iCloudGo
 paginate: 5
 theme: "PaperMod"
 
+disqusShortname: icloudgo
+
 enableRobotsTXT: true
 
 params:
