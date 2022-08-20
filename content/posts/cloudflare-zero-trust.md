@@ -8,7 +8,7 @@ tags:
     - cloudflare
     - parental controls
 params:
-    ShowPostNavLinks: true
+ #   ShowPostNavLinks: true
     ShowCodeCopyButtons: true
 
 editPost:

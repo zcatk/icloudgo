@@ -5,7 +5,6 @@ draft: true
 categories: 
 tags:
 params:
-    ShowPostNavLinks: true
     ShowCodeCopyButtons: true
 
 editPost:
