@@ -69,5 +69,5 @@ I plan to write a series of tutorials to help others with setting up and configu
 
 Thanks for the read and I hope this was helpful in getting you started with making your family or office network safe and secure.
 
-Please reach out with questions, suggestions, and more on our [GitHub Discussion Page](https://github.com/zcatk/icloudgo/discussions). 
+_Please reach out with questions, suggestions, and more on our [GitHub Discussion Page](https://github.com/zcatk/icloudgo/discussions)._ 
 

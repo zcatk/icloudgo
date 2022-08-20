@@ -1,6 +1,6 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+title: "Initial Cloudflare Zero Trust Setup"
+date: 2022-08-20T13:22:21-04:00
 draft: true
 categories: 
 tags:
