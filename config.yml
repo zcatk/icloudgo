@@ -1,0 +1,29 @@
+baseURL: https://icloudgo.net/
+languageCode: en-us
+title: iCloudGo
+paginate: 5
+theme: "PaperMod"
+
+enableRobotsTXT: true
+
+params:
+  env: production
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowToc: true
+  TocOpen: true
+  assets:
+    disableFingerprinting: true
+  hideFooter: true
+  keywords: [blog, tutorials, guides, IT, cloud]
+
+#menu:
+#  main:
+#    - identifier: categories
+#      name: categories
+#      url: /categories/
+#      weight: 10
+#    - identifier: tags
+#      name: tags
+#      url: /tags/
+#      weight: 20
