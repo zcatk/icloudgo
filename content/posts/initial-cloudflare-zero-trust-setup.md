@@ -15,7 +15,7 @@ editPost:
     appendFilePath: false # to append file path to Edit link
 ---
 
-As promised, I'm here to give you a simple guide to get you up and running on Cloudflare's Zero Trust platform. Take a moment to read my previous post, [Cloudflare Zero Trust](https://icloudgo.net/posts/cloudflare-zero-trust/) in the event you are looking to understand what Cloudflare Zero Trust has to offer. If you've already done your homework or want to dive right into setup, then you found the right place - lets get started.
+As promised, I'm here to give you a simple guide to get you up and running on Cloudflare's Zero Trust platform. Take a moment to read my previous post, [Cloudflare Zero Trust](/posts/cloudflare-zero-trust/) in the event you are looking to understand what Cloudflare Zero Trust has to offer. If you've already done your homework or want to dive right into setup, then you found the right place - lets get started.
 
 Please note that this tutorial only walks you through IPv4 setup. I don't have IPv6 active on my network and no native means to use DoT/DoH. The steps are similar, but please keep this in mind.
 
@@ -78,7 +78,7 @@ _A more comprehensive list is available on [Cloudflare Docs](https://developers.
 
 ### What's Next
 
-You should be pretty well setup at this point with all of your network devices protected. However, some additional steps remain if you want the same protections when on cellular or on the road. There are also some tricks, using Regular Expressions, you can employ to provide even more benefits to your network. This tutorial only scratches the surface of what Cloudflare Zero Trust provides, but you should sleep easy knowing your network and family are safer.
+You should be pretty well setup at this point with all of your network devices protected. However, some additional steps remain if you want the same protections when on cellular or on the road. There are also some tricks, [using Regular Expressions](/posts/cloudflare-zero-trust-regular-expressions/), you can employ to provide even more benefits to your network. This tutorial only scratches the surface of what Cloudflare Zero Trust provides, but you should sleep easy knowing your network and family are safer.
 
 Thanks for the read.
 

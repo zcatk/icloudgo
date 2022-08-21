@@ -15,8 +15,7 @@ editPost:
     appendFilePath: false # to append file path to Edit link
 ---
 
-The use of Regular Expression (REGEX) for your Cloudflare Zero Trust Gateway policies delivers some seriously powerful solutions. I ran into issues when attempting to get things working because I was attempting to apply actions to traditional REGEX. That is until I found, buried in Cloudflare's documentation that Gateway uses Rust to evaluate expressions rather than what I was accustomed to using. At the suggestion of Cloudflare, I visited [Rust REGEX](https://rustexp.lpil.uk) to build and test expressions. 
-
+The use of Regular Expression (REGEX) for your Cloudflare Zero Trust Gateway policies delivers some seriously powerful solutions. I ran into issues when attempting to get things working because I was attempting to use traditional REGEX. That is until I found, buried in Cloudflare's documentation, that Gateway used Rust to evaluate expressions rather than what I was accustomed to using. At the suggestion of Cloudflare, I visited [Rust REGEX](https://rustexp.lpil.uk) to build and test expressions. 
 
 ### Abused Top Level Domains (TLD) 
 
@@ -24,7 +23,7 @@ I designed my first REGEX expression to block the most abused TLDs reported on [
 
 ### DNS Block Policy   
 
-I then created a new DNS policy ([How to Create a DNS Policy](https://icloudgo.net/posts/initial-cloudflare-zero-trust-setup/#create-a-dns-policy)) in the Cloudflare Zero Trust dashboard as follows:
+I then created a new DNS policy ([How to Create a DNS Policy](/posts/initial-cloudflare-zero-trust-setup/#create-a-dns-policy)) in the Cloudflare Zero Trust dashboard as follows:
 
 Name | Exp. Selector | Exp. Operator | Exp. Value | Action
 ---|---|---|---|---
