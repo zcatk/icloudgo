@@ -64,7 +64,13 @@ There are a few different options when looking to use DNS over HTTPS with Cloudf
 - Enter your email and select 'Send me a code'
 - Check your email for the pin to complete sign-on or select the link
 
-Congrats - your device should now be enrolled with Cloudflare Zero Trust. This is really useful as you can now apply policies to specific users. You can also review logs to troubleshoot blocks or to identify user activities warranting further review. 
+### Testing Your Configuration
+
+[Cloudflare's Zero Trust Help Page](http://help.teams.cloudflare.com)
+
+### Success
+
+Congrats - your device is now enrolled with Cloudflare Zero Trust. This is really useful as you can now apply policies to specific users. You can also review logs to troubleshoot blocks or to identify user activities warranting further review. 
 
 ### What's Next
 
