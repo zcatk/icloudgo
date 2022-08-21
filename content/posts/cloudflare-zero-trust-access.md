@@ -8,8 +8,6 @@ tags:
     - tutorial
     - zero trust
     - cloudflare
-params:
-    ShowCodeCopyButtons: true
 
 editPost:
     URL: "https://github.com/zcatk/icloudgo/discussions"

@@ -8,8 +8,6 @@ tags:
     - zero trust
     - cloudflare
     - parental controls
-params:
-    ShowCodeCopyButtons: true
 
 editPost:
     URL: "https://github.com/zcatk/icloudgo/discussions"
@@ -59,9 +57,9 @@ These policies execute in the order they are sorted, so you may have to reorder 
 
 Name | Expression | Action
 ---|---|---
-Security Blocks | Security Categories | All Security Risks
-Content Blocks | Content Categories | _as applicable_
-App Blocks | Application | _as applicable_
+Security Blocks | Security Categories in All Security Risks | Block
+Content Blocks | Content Categories in _as applicable_ | Block
+App Blocks | Application in _as applicable_ | Block
 DuckDuckGo Safe Search | Domain is DuckDuckGo.com | Safe Search
 Bing Safe Search | Domain is Bing.com | Safe Search
 Google Safe Search | Domain is Google.com | Safe Search

@@ -8,6 +8,7 @@ enableRobotsTXT: true
 
 params:
   ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
   env: production
   defaultTheme: auto
   ShowReadingTime: true

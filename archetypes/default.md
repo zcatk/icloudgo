@@ -4,8 +4,6 @@ date: {{ .Date }}
 draft: true
 categories: 
 tags:
-params:
-    ShowCodeCopyButtons: true
 
 editPost:
     URL: "https://github.com/zcatk/icloudgo/discussions"

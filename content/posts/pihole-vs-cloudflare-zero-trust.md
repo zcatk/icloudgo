@@ -10,8 +10,6 @@ tags:
     - cloudflare
     - parental controls
     - REGEX
-params:
-    ShowCodeCopyButtons: true
 
 editPost:
     URL: "https://github.com/zcatk/icloudgo/discussions"

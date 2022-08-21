@@ -7,8 +7,6 @@ tags:
     - zero trust
     - cloudflare
     - parental controls
-params:
-    ShowCodeCopyButtons: true
 
 editPost:
     URL: "https://github.com/zcatk/icloudgo/discussions"
