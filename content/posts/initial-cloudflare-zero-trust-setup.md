@@ -22,33 +22,46 @@ Please note that this tutorial only walks you through IPv4 setup. I don't have I
 ### Setup Steps Simplified (IPv4)
 
 1) Create or sign-in to your Cloudflare account
+
 2) Select 'Zero Trust' from the left column of services
+
 3) You will recieve an onboarding prompt - select next
-4) Select a team name _(this is used to connect Warp clients later)_
+
+4) Select a team name _(this is used to connect WARP clients later)_
+
 5) Select your service tier _(I opted for Free, but your use case may differ)_
+
 6) Complete payment (you must add a card even on the Free tier - I have never been charged)
+
 7) Select 'Gateway' followed by 'Location' (**_Ensure you are connected with your home IP and not through a VPN, proxy, iCloud Relay, etc._**)
+
     - Select 'Add a location'
     - Enter a name
     - Check your 'Source IPv4' address (if it's wrong - press delete, turn off any VPN, proxy, iCloud Relay service on your device, and then select 'Add IP') 
     - Select 'Set as Default Location'
     - Select 'Add Location' 
+
 8) Change your DNS address on your router
+
 9) Select 'Done' at the top of the page  
 
 Congrats! Your network is now integrated with Cloudflare Zero Trust, but you aren't done yet. 
 
-You now need to determine what services you want to employ. For me, I wanted to protect our network from malware, phishing, and to block inapproproate content (parental controls). This requires you to setup policies, but those policies (DNS, Network, and HTTP) requires different configurations to work. I opted to only use DNS along with the Warp Client to secure our network - here'how: 
+You now need to determine what services you want to employ. For me, I wanted to protect our network from malware, phishing, and to block inapproproate content (parental controls). This requires you to setup policies, but those policies (DNS, Network, and HTTP) requires different configurations to work. I opted to only use DNS along with the WARP Client to secure our network - here'how: 
 
 ### Create a DNS Policy
 
 1) Select 'Gateway' followed by 'Policies' from the left column of your 'Cloudflare Zero Trust' dashboard
+
 2) Select 'Create a DNS Policy'
+
 3) Setup your policy:
+
     - Name your policy
     - Build an expression
     - Select an action
     - Select 'Save' (_**It may take up to 60 seconds before your policy takes effect**_)
+
 4) Rinse and repeat 
 
 ### My DNS Policies:
@@ -78,7 +91,7 @@ _A more comprehensive list is available on [Cloudflare Docs](https://developers.
 
 ### What's Next
 
-You should be pretty well setup at this point with all of your network devices protected. However, some additional steps remain if you want the same protections when on cellular or on the road. There are also some tricks, [using Regular Expressions](/posts/cloudflare-zero-trust-regular-expressions/), you can employ to provide even more benefits to your network. This tutorial only scratches the surface of what Cloudflare Zero Trust provides, but you should sleep easy knowing your network and family are safer.
+You should be pretty well setup at this point with all of your network devices protected. However, some additional steps remain if you want the same protections when on cellular or on the road ([WARP Client](/posts/cloudflare-gateway-with-doh/)). There are also some tricks, [using Regular Expressions](/posts/cloudflare-zero-trust-regular-expressions/), you can employ to provide even more benefits to your network. This tutorial only scratches the surface of what Cloudflare Zero Trust provides, but you should sleep easy knowing your network and family are safer.
 
 Thanks for the read.
 
