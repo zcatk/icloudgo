@@ -16,10 +16,20 @@ params:
   #TocOpen: true
   assets:
     disableFingerprinting: true
+    disableHLJS: true
   #hideFooter: true
   keywords: [blog, tutorials, guides, IT, cloud]
   categories: 
     - network security
+
+markup:
+  highlight:
+    # anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    # lineNos: true
+    # noClasses: false
+    style: monokai
 
 menu:
   main:

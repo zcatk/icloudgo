@@ -91,7 +91,7 @@ _A more comprehensive list is available on [Cloudflare Docs](https://developers.
 
 ### What's Next
 
-You should be pretty well setup at this point with all of your network devices protected. However, some additional steps remain if you want the same protections when on cellular or on the road ([WARP Client](/posts/cloudflare-gateway-with-doh/)). There are also some tricks, [using Regular Expressions](/posts/cloudflare-zero-trust-regular-expressions/), you can employ to provide even more benefits to your network. This tutorial only scratches the surface of what Cloudflare Zero Trust provides, but you should sleep easy knowing your network and family are safer.
+You should be pretty well setup at this point with all of your network devices protected. However, some additional steps remain if you want the same protections when on cellular or on the road ([WARP Client](/posts/cloudflare-gateway-with-doh/)). There are also some tricks, [using Regular Expressions](/posts/cloudflare-zero-trust-regular-expressions/), you can employ to provide even more benefits to your network - even [block ads](/posts/block-ads-with-cloudflare-zero-trust). This tutorial only scratches the surface of what Cloudflare Zero Trust provides, but you should sleep easy knowing your network and family are safer.
 
 Thanks for the read.
 

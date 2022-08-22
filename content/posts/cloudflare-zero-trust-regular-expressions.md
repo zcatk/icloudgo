@@ -31,12 +31,14 @@ TLD Blocks | Domain | matches regex | _see below_ | Block
 
 #### Policy Value
 
-```[.](surf|rest|tokyo|ml|cam|icu|cf|gq|best|tk|cn|ru|xyz)```
+```
+[.](surf|rest|tokyo|ml|cam|icu|cf|gq|best|tk|cn|ru|xyz)
+```
 
 ### What' Next
 
 Allow up to 60 seconds after saving for your policy to take effect. That's it - test your new policy by attempting to access a domain with one of the TLDs you blocked. 
 
-Thanks for the read. 
+Thanks for the read. Using REGEX can simplify your policies and introduce some powerful solutions - like [blocking ads](/posts/block-ads-with-cloudflare-zero-trust) on your network.  
 
 _Please reach out with questions, suggestions, and more on our [GitHub Discussion Page](https://github.com/zcatk/icloudgo/discussions)._ 
