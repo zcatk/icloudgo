@@ -41,7 +41,7 @@ Ad Blocks | Domain | matches regex | _see below_ | Block
 (advert|adserv|adsystem|doubleclick|2mdn|truecaller|uberads|206ads|360in|360yield|3lift|a2z|aarki|ad2iction|adcolony|addthis|adform|adhaven|adlooxtracking|admicro|adnxs|adpushup|adroll|adsafeprotected|adsbynimbus|adspruce|adsrvr|adswizz|adtelligent|adventori|adzerk|aerserv|amplitude|aniview|anzuinfra|apester|aralego|atdmt|atwola|bannersnack|batmobi|bluecava|blueconic|carambo|casalemediacriteo|crittercismriteo|crittercism|revcontent|ijinshan|imrworldwide|inmobi|marketo|moatads|moatpixel|mookie|perfectaudience|permutive|pubmatic|pushwoosh|rayjump|revcontent|revjet|rfihub|richrelevance|rqmob|rubiconproject|onetag|samba|scopely|scorecardresearch|shareaholic|sharethis|sharethrough|smaato|snapads|speedshiftmedia|supersonicads|swrve|taboola|tremorhub|unity3d|vertamedia|videohub|vungle|wzrkt|xiaomi|yieldlove|yieldmo|yieldoptimizer|baidu|chinanet|yandex|googlesyndication)
 ```
 
-I built this list by referencing block lists available on [firebog](https://firebog.net) -  they have a great collection. The values I selected are unique enough to not trigger unexpected blocks and the values 'advert', 'adserv', and 'adsystem' appeared in a large number of the block lists so they triggers on a lot on their own. Success.
+I built this list by referencing block lists available on [firebog](https://firebog.net) -  they have a great collection. The values I selected are unique enough to not trigger unexpected blocks and the values 'advert', 'adserv', and 'adsystem' appeared in a large number of the block lists so they trigger on a lot on their own. Success.
 
 ### What's Next
 

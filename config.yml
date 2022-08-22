@@ -4,32 +4,18 @@ title: iCloudGo
 paginate: 5
 theme: "PaperMod"
 
+enableInlineShortcodes: true
 enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+# googleAnalytics: UA-123-45
 
-params:
-  ShowPostNavLinks: true
-  ShowCodeCopyButtons: true
-  env: production
-  defaultTheme: auto
-  ShowReadingTime: true
-  ShowToc: true
-  #TocOpen: true
-  assets:
-    disableFingerprinting: true
-    disableHLJS: true
-  #hideFooter: true
-  keywords: [blog, tutorials, guides, IT, cloud]
-  categories: 
-    - network security
-
-markup:
-  highlight:
-    # anchorLineNos: true
-    codeFences: true
-    guessSyntax: true
-    # lineNos: true
-    # noClasses: false
-    style: monokai
+minify:
+    disableXML: true
+    # minifyOutput: true
 
 menu:
   main:
@@ -51,3 +37,88 @@ outputs:
         - HTML
         - RSS
         - JSON # is necessary
+
+params:
+  env: production
+  description: "iCloudGo.net"
+  author: iCloudGo
+  keywords: [blog, tutorials, guides, IT, cloud]
+  categories: 
+    - network security  
+  # author: ["Me", "You"] # multiple authors
+
+  defaultTheme: auto
+  # disableThemeToggle: true
+  ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowToc: true
+  #TocOpen: true
+  # comments: false
+  
+  homeInfoParams:
+      Title: "Welcome to iCloudGo!"
+      Content: >
+        I started this blog as an excuse to try out Cloudflare Pages and a 
+        place to capture my notes and thoughts on recent projects, configurations, and tools.
+        Hopefully my tutorials and guides can also assist with your own projects. 
+        Again, welcome and please reach out with any suggestions or questions. 
+  
+  socialIcons:
+        - name: github
+          url: "https://github.com/zcatk/icloudgo"
+        #- name: KoFi
+        #  url: "https://ko-fi.com/adityatelange"
+        - name: Rss
+          url: "index.xml"
+
+  assets:
+    disableFingerprinting: true
+    disableHLJS: true
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: false
+    location: 0
+    distance: 0
+    threshold: 0.2
+    minMatchCharLength: 2
+    keys: ["title", "permalink", "summary", "content"]
+
+markup:
+  highlight:
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    noClasses: false
+    # style: monokai
+
+privacy:
+    vimeo:
+        disabled: false
+        simple: true
+
+    twitter:
+        disabled: false
+        enableDNT: true
+        simple: true
+
+    instagram:
+        disabled: false
+        simple: true
+
+    youtube:
+        disabled: false
+        privacyEnhanced: true
+
+services:
+    instagram:
+        disableInlineCSS: true
+    twitter:
+        disableInlineCSS: true
