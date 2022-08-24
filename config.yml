@@ -101,26 +101,26 @@ markup:
 
 privacy:
   disqus:
-    disable: false
+    disable: true
   googleAnalytics:
-    anonymizeIP: false
-    disable: false
-    respectDoNotTrack: false
-    useSessionStorage: false
+    anonymizeIP: true
+    disable: true
+    respectDoNotTrack: true
+    useSessionStorage: true
   instagram:
-    disable: false
-    simple: false
+    disable: true
+    simple: true
   twitter:
-    disable: false
-    enableDNT: false
-    simple: false
+    disable: true
+    enableDNT: true
+    simple: true
   vimeo:
-    disable: false
-    enableDNT: false
-    simple: false
+    disable: true
+    enableDNT: true
+    simple: true
   youtube:
-    disable: false
-    privacyEnhanced: false
+    disable: true
+    privacyEnhanced: true
 
 services:
     instagram:
