@@ -103,14 +103,12 @@ privacy:
   disqus:
     disable: true
   googleAnalytics:
-    anonymizeIP: true
     disable: true
     respectDoNotTrack: true
-    useSessionStorage: true
   instagram:
     disable: true
     simple: true
-  twitter:
+  x:
     disable: true
     enableDNT: true
     simple: true
@@ -125,5 +123,5 @@ privacy:
 services:
     instagram:
         disableInlineCSS: true
-    twitter:
+    x:
         disableInlineCSS: true
