@@ -1,8 +1,13 @@
 baseURL: https://icloudgo.net/
 languageCode: en-us
 title: iCloudGo
-paginate: 5
+#paginate: 5
 theme: "PaperMod"
+
+pagination:
+  disableAliases: false
+  pagerSize: 5
+  path: page
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
